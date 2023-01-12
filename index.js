@@ -57,7 +57,7 @@ async function run(){
               const paymentsCollection = client.db('phoneResaledb').collection('payments')
            
 
-        //  get categories Api..
+        //  get categories Api...........
 
               app.get('/categories',async(req,res)=>{
 
